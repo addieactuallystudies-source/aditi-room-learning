@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    background: #111;
+}
+#page {
+    position: relative;
+
+    width: 1440px;
+    height: 900px;
+
+    margin: 0 auto;
+}
+#room {
+    position: absolute;
+
+    left: 181.69px;
+    top: 18.86px;
+
+    width: 1077.58px;
+    height: 863.22px;
+
+    display: block;
+}
+#bed {
+    position: absolute;
+
+    left: 220.21px;
+    top: 93.13px;
+
+    width: 312.07px;
+    height: 462.65px;
+
+    image-rendering: pixelated;
+}
+#mirror {
+    position: absolute;
+
+    left: 1057.99px;
+    top: 151.78px;
+
+    width: 89.45px;
+    height: 211.63px;
+
+    image-rendering: pixelated;
+}
+#bookshelf {
+    position: absolute;
+
+    left: 863px;
+    top: 94px;
+
+    width: 176px;
+    height: 246px;
+
+    image-rendering: pixelated;
+}
+#player {
+    position: absolute;
+    left: 652px;
+    top: 450px;
+
+    width: 135px;
+    height: 175px;
+
+    image-rendering: pixelated;
+    user-select: none;
+    pointer-events: none;
+}
